@@ -19,7 +19,7 @@ Use the quantile formulas and boxplot()to view the graph.
 End of Program.
 
 ## CODE :
-```
+
 import pandas as pd
 df=pd.read_csv("weight.csv")
 print(df)
@@ -40,7 +40,7 @@ IQR=q3-q1
 df2_new=df2[((df2>=q1-1.5*IQR)&(df2<=q3+1.5*IQR)).all(axis=1)]
 df2_new.boxplot()
 df2_new
-```
+
 ## OUTPUT :
 i)
 ![op](./op1.png)
