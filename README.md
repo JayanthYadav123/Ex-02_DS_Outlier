@@ -19,8 +19,6 @@ Use the quantile formulas and boxplot()to view the graph.
 End of Program.
 
 ## CODE :
-
-
 ~~~
 import pandas as pd
 df=pd.read_csv("weight.csv")
